@@ -27,10 +27,10 @@
       }
 
       include('math.php'); 
-      print(sum(10, 5) . "<br>" );
-      print(multiply(10, 5));
-      print(subtract(10, 5));
-      print(divide(10, 5));
+      print(sum(10, 5) . "<br>");
+      print(multiply(10, 5) . "br");
+      print(subtract(10, 5) . "br");
+      print(divide(10, 5) . "br");
    ?>
 </body>
 </html>
