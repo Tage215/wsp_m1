@@ -14,7 +14,7 @@
       $index = 1;
       while($index <= 5){
          print("$index ");
-         $index += 1;
+         $index += 0.1;
       }
    ?>
 </body>
