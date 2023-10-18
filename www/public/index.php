@@ -10,8 +10,8 @@
       for($i = 1; $i <= 5; $i += 0.1){
          print("$i ");
       }
-
-      <br>
+      
+      print("\n");
 
       $index = 1;
       while($index <= 5){
