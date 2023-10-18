@@ -9,27 +9,10 @@
 
 <body>
     <?php
-    
-    function clean($data)
-    {
-        if (isset($data)) {
-            if(!mb_check_encoding($data)){
-                header('Location: index.php');
-            }
-            $data = strip_tags($data);
-            $data = trim($data);
-            $data = stripslashes($data);
-        }
-        else{
-            header('Location: index.php');
-        }
-        return  $data;
-    }
-
-    print(clean($_POST["namn"]) . "<br>");
-    print(clean($_POST["efternamn"]) . "<br>");
-    print(clean($_POST["username"]) . "<br>");
-    print(clean($_POST["password"]) . "<br>");
+        print(cleanData($_POST["namn"]) . "<br>");
+        print(cleanData($_POST["efternamn"]) . "<br>");
+        print(cleanData($_POST["username"]) . "<br>");
+        print(cleanData($_POST["password"]) . "<br>");
     ?>
 </body>
 
