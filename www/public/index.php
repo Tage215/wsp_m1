@@ -7,8 +7,14 @@
 </head>
 <body>
    <?php
-      for($i = 0; $i <= 5; $i += 0.1){
+      for($i = 1; $i <= 5; $i += 0.1){
          print("$i ");
+      }
+
+      $index = 1;
+      while($i <= 5){
+         print("$i ");
+         $index += 1;
       }
    ?>
 </body>
