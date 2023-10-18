@@ -12,7 +12,7 @@
       }
 
       $index = 1;
-      while($i <= 5){
+      while($index <= 5){
          print("$index ");
          $index += 1;
       }
