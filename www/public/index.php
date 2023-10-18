@@ -8,7 +8,7 @@
 <body>
    <?php
       for($i = 0; $i <= 5; $i += 0.1){
-         print($i);
+         print("$i ");
       }
    ?>
 </body>
