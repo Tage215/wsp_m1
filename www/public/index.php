@@ -25,6 +25,9 @@
       foreach($page as $value) {
          print("$value <br>");
       }
+
+      include('math.php'); 
+      print(sum(10, 5));
    ?>
 </body>
 </html>
