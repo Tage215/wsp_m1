@@ -6,6 +6,10 @@
    <title>Document</title>
 </head>
 <body>
-   
+   <?php
+      for($i = 0; $i <= 5; $i += 0.1){
+         print($i);
+      }
+   ?>
 </body>
 </html>
