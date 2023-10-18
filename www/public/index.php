@@ -34,10 +34,7 @@
    print(subtract(10, 5) . "<br>");
    print(divide(10, 5) . "<br>");
 
-   print(cleanData($_POST["namn"]) . "<br>");
-   print(cleanData($_POST["efternamn"]) . "<br>");
-   print(cleanData($_POST["username"]) . "<br>");
-   print(cleanData($_POST["password"]) . "<br>");
+   
    ?>
 
    <form action="user.php" method="post">
@@ -78,6 +75,12 @@
       </fieldset>
    </form>
 
+   <?php
+   print(cleanData($_POST["namn"]) . "<br>");
+   print(cleanData($_POST["efternamn"]) . "<br>");
+   print(cleanData($_POST["username"]) . "<br>");
+   print(cleanData($_POST["password"]) . "<br>");
+   ?>
 </body>
 
 </html>
