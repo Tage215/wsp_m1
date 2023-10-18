@@ -8,8 +8,7 @@
 <body>
     <?php
         function sum($t1, $t2){
-            $sum = $t1 + $t2;
-            return $sum;
+            return $t1 + $t2;
         }
 
         function multiply($t1, $t2){
