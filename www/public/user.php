@@ -26,10 +26,10 @@
         return  $data;
     }
 
-    print(clean($_POST["namn"]));
-    print(clean($_POST["efternamn"]));
-    print(clean($_POST["username"]));
-    print(clean($_POST["password"]));
+    print(clean($_POST["namn"]) . "<br>");
+    print(clean($_POST["efternamn"]) . "<br>");
+    print(clean($_POST["username"]) . "<br>");
+    print(clean($_POST["password"]) . "<br>");
     ?>
 </body>
 
