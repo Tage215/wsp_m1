@@ -31,6 +31,26 @@
       print(multiply(10, 5) . "<br>");
       print(subtract(10, 5) . "<br>");
       print(divide(10, 5) . "<br>");
+
    ?>
+
+   <form action="result.php" method="post">
+      <fieldset>
+         <legend>Användare</legend>
+         <label>Namn</label>
+         <input type="text" name="namn">
+         <br>
+         <label>Efternamn</label>
+         <input type="text" name="efternamn">
+         <br>
+         <label>Användarnamn</label>
+         <input type="text" name="username">
+         <br>
+         <label>Lösenord</label>
+         <input type="text" name="password">
+           
+         <input type="submit" value="Skicka">
+      </fieldset>
+   </form>
 </body>
 </html>
