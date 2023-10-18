@@ -34,7 +34,7 @@
 
    ?>
 
-   <form action="result.php" method="post">
+   <form action="user.php" method="post">
       <fieldset>
          <legend>Användare</legend>
          <label>Namn</label>
