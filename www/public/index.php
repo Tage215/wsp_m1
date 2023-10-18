@@ -13,7 +13,7 @@
 
       $index = 1;
       while($i <= 5){
-         print("$i ");
+         print("$index ");
          $index += 1;
       }
    ?>
